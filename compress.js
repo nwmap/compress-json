@@ -1,3 +1,6 @@
+function getType(o) {
+  return Object.prototype.toString.call(o)
+}
 
 
 function memToValues(mem) {
